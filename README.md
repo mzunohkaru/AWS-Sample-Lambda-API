@@ -8,5 +8,13 @@
 ![architecture 2](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/d651f75c-28a7-4b7e-a94a-97be636ec30f)
 
 
+## func 3
+
+![名称未設定 drawio](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/36ab3420-8655-43ae-8155-1c6034bd5bea)
+
+
+
+
 ## 構成図イメージ作成ツール
 https://qiita.com/marcio/items/fe86c0c8749edfd52399
+

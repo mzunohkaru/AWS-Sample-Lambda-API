@@ -28,7 +28,7 @@ def lambda_handler(event, context):
             req_id = int(event["queryStringParameters"]["id"])
 
             # レコード取得（指定されたidのレコードのみを取得）
-            SQL = "SELECT * FROM recipes WHERE id = %s"
+            SQL = "SELECT * FROM [テーブル名] WHERE id = %s"
             cur.execute(SQL, (req_id,))
             cur_res = cur.fetchall()
 

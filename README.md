@@ -1,16 +1,16 @@
 ## func 1
 
-![architecture 1](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/3ad7112b-c8ca-4060-9818-7c3d019fc623)
+![architecture_1](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/16bc5d2d-e805-4971-8e2c-8ea8e9b2a481)
 
 
 ## func 2
 
-![architecture 2](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/d651f75c-28a7-4b7e-a94a-97be636ec30f)
+![architecture_2](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/f0435540-0b80-409e-a7d2-1315ee42c7f6)
 
 
 ## func 3
 
-![名称未設定 drawio](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/36ab3420-8655-43ae-8155-1c6034bd5bea)
+![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/2c96a9eb-d20c-41b3-84bd-edb32c863b22)
 
 
 

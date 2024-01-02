@@ -23,16 +23,24 @@ print("Success connecting to RDS mysql instance")
 
 
 def lambda_handler(event, context):
+    req = event["queryStringParameters"]
+
     try:
         with conn.cursor() as cur:
-            # レコード取得
-            SQL = "SELECT * FROM users;"
+            # レコード登録
+            SQL = """
+                    INSERT INTO users (name)
+                    VALUES (%s);
+                """
+            cur.execute(
+                SQL,
+                (req["name"],),
+            )
+            conn.commit()
 
-            cur.execute(SQL)
+            # レコード取得（登録したレコードを取得）
+            cur.execute("select * from users order by id DESC LIMIT 1;")
             cur_res = cur.fetchall()
-
-            if len(cur_res) == 0:
-                raise Exception
 
             data_list = list()
             for id, name in cur_res:
@@ -44,8 +52,8 @@ def lambda_handler(event, context):
             cur.close()
 
             # レスポンス生成
-            res = list()
-            res = {"Datas": data_list}
+            res = dict()
+            res = {"message": "Data successfully created!", "Data": data_list}
 
         return res
 
@@ -53,7 +61,9 @@ def lambda_handler(event, context):
     except Exception as e:
         cur.close()
 
-        res = list()
-        res = {"message": "No Data found"}
+        err_res = dict()
+        err_res = {
+            "message": "Data creation failed!",
+        }
 
-        return res
+        return err_res

@@ -10,8 +10,22 @@
 
 ## func 3
 
-![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/2c96a9eb-d20c-41b3-84bd-edb32c863b22)
+![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/ca8b9f9c-ac33-468c-8928-768fc374b321)
 
+
+## func 4
+
+![architecture_4](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/62a6b232-5e2f-4797-9303-86b4c0eba834)
+
+
+## func 5
+
+![architecture_5](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/ddfd380e-7af2-4212-8af4-ee74d5378f66)
+
+
+## func 7
+
+![architecture_7](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/54c9a8e1-6172-402c-b133-d28374a89227)
 
 
 

@@ -1,0 +1,22 @@
+Post
+
+curl -X POST -H "Content-Type: application/json" -d "{\"id\":\"001\",\"name\":\"A\",\"age\":\"10\",\"address\":\"Tokyo\",\"tel\":\"090-1111-1111\"}" https://ドメイン名/users-stage/users
+curl -X POST -H "Content-Type: application/json" -d "{\"id\":\"002\",\"name\":\"B\",\"age\":\"20\",\"address\":\"Osaka\",\"tel\":\"090-2222-2222\"}" https://ドメイン名/users-stage/users
+curl -X POST -H "Content-Type: application/json" -d "{\"id\":\"003\",\"name\":\"C\",\"age\":\"30\",\"address\":\"Nagoya\",\"tel\":\"090-3333-3333\"}" https://ドメイン名/users-stage/users
+
+
+Get
+
+curl -X GET https://ドメイン名/users-stage/users?id=001
+curl -X GET https://ドメイン名/users-stage/users
+
+
+Put
+
+curl -X PUT -H "Content-Type: application/json" -d "{\"id\":\"001\",\"name\":\"Z\",\"age\":\"99\",\"address\":\"Okinawa\",\"tel\":\"090-9999-9999\"}" https://ドメイン名/users-stage/users
+
+
+Delete
+
+curl -X DELETE https://ドメイン名/users-stage/users?id=001
+curl -X DELETE https://ドメイン名/users-stage/users

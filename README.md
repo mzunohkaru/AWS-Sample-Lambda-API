@@ -33,6 +33,11 @@
 ![architecture_8](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/a67a47db-d602-4ce7-9806-85bff1063c9d)
 
 
+## func 9
+
+
+
+
 ## 構成図イメージ作成ツール
 https://qiita.com/marcio/items/fe86c0c8749edfd52399
 

@@ -35,7 +35,7 @@
 
 ## func 9
 
-
+<img width="1441" alt="architecture_9" src="https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/cce105af-a65e-4b5f-9a70-c0ba49b293fe">
 
 
 ## 構成図イメージ作成ツール

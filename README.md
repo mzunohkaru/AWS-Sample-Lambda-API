@@ -2,15 +2,37 @@
 
 ![architecture_1](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/a177b1d0-060b-4a10-aed0-bf8ca8520bec)
 
+① パスパラメータにテキストを持たせて、APIを叩く
+② Lambda関数を実行
+③ パスパラメータから受け取ったテキストを翻訳サービスに送る
+④ 翻訳サービスで翻訳したテキストを返す
+⑤ パスパラメータのテキスト、翻訳したテキスト、時間をDynamoDBに保存する
+⑥ DynamoDBから取得したデータを返す
+⑦ 加工したデータをJSON形式で返す
+
 
 ## func 2
 
 ![architecture_2](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/394b1f35-72cb-44b6-95e4-9f160a026790)
 
+① パスパラメータにidを持たせて、APIを叩く
+② Lambda関数を実行
+③ パスパラメータから受け取ったidでDynamoDBのデータを検索
+④ DynamoDBから検索結果を返す
+⑤,⑥ 検索結果をJSON形式で返す
+
 
 ## func 3
 
 ![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/cd1ac291-dd40-4d03-a329-92141ed5ad6d)
+
+① GETメソッドでAPIを叩く
+② Lambda関数を実行
+③ RDBのデータを全て返すように要求
+④ RDBのデータを全て返す
+⑤,⑥ RDBから取得したデータをJSON形式で返す 
+⑦ EC2へアクセス
+⑧ コンソールでデータの操作を行う
 
 
 ## func 4

@@ -1,31 +1,31 @@
 ## func 1
 
-![architecture_1](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/16bc5d2d-e805-4971-8e2c-8ea8e9b2a481)
+![architecture_1](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/a177b1d0-060b-4a10-aed0-bf8ca8520bec)
 
 
 ## func 2
 
-![architecture_2](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/f0435540-0b80-409e-a7d2-1315ee42c7f6)
+![architecture_2](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/394b1f35-72cb-44b6-95e4-9f160a026790)
 
 
 ## func 3
 
-![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/ca8b9f9c-ac33-468c-8928-768fc374b321)
+![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/cd1ac291-dd40-4d03-a329-92141ed5ad6d)
 
 
 ## func 4
 
-![architecture_4](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/62a6b232-5e2f-4797-9303-86b4c0eba834)
+![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/cd1ac291-dd40-4d03-a329-92141ed5ad6d)
 
 
 ## func 5
 
-![architecture_5](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/ddfd380e-7af2-4212-8af4-ee74d5378f66)
+![architecture_5](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/96240896-ba15-4590-bb49-4d34026dc1e0)
 
 
 ## func 7
 
-![architecture_7](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/54c9a8e1-6172-402c-b133-d28374a89227)
+![architecture_5](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/96240896-ba15-4590-bb49-4d34026dc1e0)
 
 
 ## func 8
@@ -35,7 +35,7 @@
 
 ## func 9
 
-<img width="1441" alt="architecture_9" src="https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/cce105af-a65e-4b5f-9a70-c0ba49b293fe">
+![architecture_9](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/1b18bad7-8174-49f1-9d4b-2f86b4b5699f)
 
 
 ## 構成図イメージ作成ツール

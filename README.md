@@ -77,18 +77,25 @@
 
 ## func 9 (python)
 
-![architecture_9](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/1b18bad7-8174-49f1-9d4b-2f86b4b5699f)
+![architecture_9](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/a7fc7ded-4a6a-464c-baef-395aa3e233dd)
 
 ① POST・GET・PUT・DELETEメソッドでAPIを叩く
-② POST Lambda関数を実行
-③ DynamoDBへパスパラメータから受け取ったデータを保存する
-④ GET Lambda関数を実行
-⑤ パスパラメータにidがある場合は、idと一致するデータを返す。パスパラメータにidがない場合は、すべてのデータを返す。
-⑥,⑦ DynamoDBから取得したデータをJSON形式で返す
-⑧ PUT Lambda関数を実行
-⑨ パスパラメータから受け取ったidと一致するDynamoDBのデータを更新する
-10 DELETE Lambda関数を実行
-11 パスパラメータから受け取ったidと一致するDynamoDBのデータを削除する
+②-CREATE DynamoDBにデータを挿入
+②-READ DynamoDBからデータ (全データ＆パスパラメータのIDと一致するデータ) を取得
+②-PUT  DynamoDBのデータを更新
+②-DELETE DynamoDBのデータを削除
+
+
+## func 3,4,5,6,7 (nodejs)
+
+![architecture_3,4,5,6,7](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/3b8c52fa-ef8a-4214-b1da-d2f9b55e5012)
+
+① APIを叩く
+② 認証トークンを検証
+CREATE DynamoDBにデータを挿入
+READ DynamoDBからデータ (全データ＆パスパラメータのIDと一致するデータ) を取得
+PUT  DynamoDBのデータを更新
+DELETE DynamoDBのデータを削除
 
 
 ## 構成図イメージ作成ツール

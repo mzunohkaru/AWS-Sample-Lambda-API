@@ -1,4 +1,4 @@
-## func 1
+## func 1 (python)
 
 ![architecture_1](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/a177b1d0-060b-4a10-aed0-bf8ca8520bec)
 
@@ -11,7 +11,7 @@
 ⑦ 加工したデータをJSON形式で返す
 
 
-## func 2
+## func 2 (python)
 
 ![architecture_2](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/394b1f35-72cb-44b6-95e4-9f160a026790)
 
@@ -22,7 +22,7 @@
 ⑤,⑥ 検索結果をJSON形式で返す
 
 
-## func 3
+## func 3 (python)
 
 ![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/cd1ac291-dd40-4d03-a329-92141ed5ad6d)
 
@@ -35,7 +35,7 @@
 ⑧ コンソールでデータの操作を行う
 
 
-## func 4
+## func 4 (python)
 
 ![architecture_3](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/cd1ac291-dd40-4d03-a329-92141ed5ad6d)
 
@@ -48,7 +48,7 @@
 ⑧ コンソールでデータの操作を行う
 
 
-## func 5
+## func 5 (python)
 
 ![architecture_5](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/96240896-ba15-4590-bb49-4d34026dc1e0)
 
@@ -59,7 +59,7 @@
 ⑤ コンソールでデータの操作を行う
 
 
-## func 7
+## func 7 (python)
 
 ![architecture_5](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/96240896-ba15-4590-bb49-4d34026dc1e0)
 
@@ -70,12 +70,12 @@
 ⑤ コンソールでデータの操作を行う
 
 
-## func 8
+## func 8 (python)
 
 ![architecture_8](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/a67a47db-d602-4ce7-9806-85bff1063c9d)
 
 
-## func 9
+## func 9 (python)
 
 ![architecture_9](https://github.com/mzunohkaru/AWS-Sample-Lambda-API/assets/99012157/1b18bad7-8174-49f1-9d4b-2f86b4b5699f)
 
